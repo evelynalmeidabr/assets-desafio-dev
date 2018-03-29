@@ -1,0 +1,89 @@
+@charset 'UTF-8';
+
+body, h1, h2, h3, h4, h5, h6, div {
+	font-family: 'Varela Round', sans-serif;
+}
+
+#topo{
+	/*
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../_img/hero.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding: 8rem 0;
+	display: table;
+	position: relative;
+	min-height: 30rem;
+	*/
+	background: url(../_img/hero.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	padding: 8rem 0;
+}
+
+#servicos{
+	margin-top: 3em;
+	margin-bottom: 10em;
+}
+
+h2, h3, h4, h5, h6#servicos{
+	color: #2687e9;
+}
+
+div#servicos{
+	color: #406181;
+}
+
+.tumb{
+	padding-top: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 3rem;
+	transition: all 0.6s;
+}
+
+.tumb:hover{
+	background-color: rgba(0,0,0,.8);
+	border-radius: 5px;
+	color: #fff;
+}
+
+#rodape{
+	padding: 1rem;
+	text-align: center;
+	background-color: #fff;
+}
+
+#rodape a{
+	text-decoration: none;
+}
+
+#rodape a:hover{
+	text-decoration: none;
+}
+
+.center {
+    margin: auto;
+    width: 40%;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.btn-confirmacao{
+	background-color: rgba(0,0,0,0);
+	border: 1px solid #fff;
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 0.2rem;
+	color: #fff;
+	margin-right: 20px;
+}
+
+.btn-media{
+	padding-right: 20px;
+	font-size: 1.6rem;
+}
